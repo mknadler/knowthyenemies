@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+@mixin test() {
+	background: blue;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-copy);
+  padding: 2rem;
+}

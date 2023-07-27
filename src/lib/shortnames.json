@@ -1,0 +1,1834 @@
+[
+  {
+    "opdb_id": "G5728-MDbjD",
+    "shortname": "FG"
+  },
+  {
+    "opdb_id": "G4JZ4-ML0pL",
+    "shortname": "HRC"
+  },
+  {
+    "opdb_id": "G411e-MJrEL",
+    "shortname": "A13"
+  },
+  {
+    "opdb_id": "G5vnL-MJP3y",
+    "shortname": "R&B"
+  },
+  {
+    "opdb_id": "GrjDz-MJKN6",
+    "shortname": "CRVT"
+  },
+  {
+    "opdb_id": "GRVEJ-MDq1w",
+    "shortname": "DRD"
+  },
+  {
+    "opdb_id": "G5oEz-MQ7Zw",
+    "shortname": "ELW"
+  },
+  {
+    "opdb_id": "G4O2b-MJpn4",
+    "shortname": "CYC"
+  },
+  {
+    "opdb_id": "GR99Y-MJ9Zy",
+    "shortname": "TM"
+  },
+  {
+    "opdb_id": "GredR-MDE2K",
+    "shortname": "TRS"
+  },
+  {
+    "opdb_id": "G4ZVB-MJ5lE",
+    "shortname": "JP"
+  },
+  {
+    "opdb_id": "G5bv3-MLW68",
+    "shortname": "DM"
+  },
+  {
+    "opdb_id": "G48ZN-MLONl",
+    "shortname": "FBC"
+  },
+  {
+    "opdb_id": "G50Wr-MLeZP",
+    "shortname": "RFM"
+  },
+  {
+    "opdb_id": "G43Yq-MJ7o4",
+    "shortname": "DP"
+  },
+  {
+    "opdb_id": "G4N6n-MLxER",
+    "shortname": "BBH"
+  },
+  {
+    "opdb_id": "G4JK7-MDBe6",
+    "shortname": "WW"
+  },
+  {
+    "opdb_id": "G417d-MJkXV",
+    "shortname": "WoF"
+  },
+  {
+    "opdb_id": "GrZnn-MJj46",
+    "shortname": "PM"
+  },
+  {
+    "opdb_id": "GRY9k-MQr4w",
+    "shortname": "BTC"
+  },
+  {
+    "opdb_id": "G5oBw-ML3Kw",
+    "shortname": "PZ"
+  },
+  {
+    "opdb_id": "G4ODR-MDXEy",
+    "shortname": "TAF"
+  },
+  {
+    "opdb_id": "GRokz-ML8oW",
+    "shortname": "CSI"
+  },
+  {
+    "opdb_id": "GRWBd-MLy5p",
+    "shortname": "DNR"
+  },
+  {
+    "opdb_id": "G5we0-MDx6b",
+    "shortname": "SST"
+  },
+  {
+    "opdb_id": "G59wx-MLBX4",
+    "shortname": "EK"
+  },
+  {
+    "opdb_id": "G5w3q-MQYr0",
+    "shortname": "WO"
+  },
+  {
+    "opdb_id": "GRVnY-MDz0l",
+    "shortname": "BLPY"
+  },
+  {
+    "opdb_id": "G4yen-MD12Y",
+    "shortname": "AP"
+  },
+  {
+    "opdb_id": "G417e-MDvXz",
+    "shortname": "MH"
+  },
+  {
+    "opdb_id": "G5nbD-MDyXb",
+    "shortname": "BJ"
+  },
+  {
+    "opdb_id": "GRpee-MJkyr",
+    "shortname": "BOP2.0"
+  },
+  {
+    "opdb_id": "Gr8l3-MDWr0",
+    "shortname": "I500"
+  },
+  {
+    "opdb_id": "GrxeN-MD0ky",
+    "shortname": "M86"
+  },
+  {
+    "opdb_id": "G50kj-MDqpv",
+    "shortname": "W?D"
+  },
+  {
+    "opdb_id": "GR6do-MLBq4",
+    "shortname": "TOMMY"
+  },
+  {
+    "opdb_id": "GrXy3-ML0Ey",
+    "shortname": "PG"
+  },
+  {
+    "opdb_id": "G5KXk-MLB9V",
+    "shortname": "EBD"
+  },
+  {
+    "opdb_id": "GRoZw-MLW3j",
+    "shortname": "JD"
+  },
+  {
+    "opdb_id": "G4dJE-MQKoo",
+    "shortname": "OC"
+  },
+  {
+    "opdb_id": "Grj6X-MJwj5",
+    "shortname": "XM"
+  },
+  {
+    "opdb_id": "GRozL-MDb46",
+    "shortname": "BBBB"
+  },
+  {
+    "opdb_id": "G5D94-MLnXq",
+    "shortname": "SM"
+  },
+  {
+    "opdb_id": "GR6kB-MDz81",
+    "shortname": "SEA"
+  },
+  {
+    "opdb_id": "GR6wO-MDvzk",
+    "shortname": "TFTC"
+  },
+  {
+    "opdb_id": "GRLzj-MJPYK",
+    "shortname": "TX"
+  },
+  {
+    "opdb_id": "G56vo-MLl1Z",
+    "shortname": "BBB"
+  },
+  {
+    "opdb_id": "G5YDN-MJKYo",
+    "shortname": "TOTEM"
+  },
+  {
+    "opdb_id": "GrEkZ-ML13O",
+    "shortname": "24"
+  },
+  {
+    "opdb_id": "G5nzJ-MJVX8",
+    "shortname": "SS"
+  },
+  {
+    "opdb_id": "GRnPz-MLBzV",
+    "shortname": "TF"
+  },
+  {
+    "opdb_id": "GRVq4-MLyxq",
+    "shortname": "IM"
+  },
+  {
+    "opdb_id": "GR7qv-MQk31",
+    "shortname": "BF"
+  },
+  {
+    "opdb_id": "GrPKO-MLO5X",
+    "shortname": "PB"
+  },
+  {
+    "opdb_id": "G4en0-MJ5vB",
+    "shortname": "BOPP"
+  },
+  {
+    "opdb_id": "Gr88w-MQPp9",
+    "shortname": "G90S"
+  },
+  {
+    "opdb_id": "G5YWX-MQj9k",
+    "shortname": "djr"
+  },
+  {
+    "opdb_id": "GRVjJ-MLq7W",
+    "shortname": "CV"
+  },
+  {
+    "opdb_id": "G42k0-MQ6w9",
+    "shortname": "CP"
+  },
+  {
+    "opdb_id": "GrN7J-MJ78q",
+    "shortname": "EB"
+  },
+  {
+    "opdb_id": "G48NB-MD384",
+    "shortname": "BMX"
+  },
+  {
+    "opdb_id": "G42OJ-MD1w4",
+    "shortname": "ROGO"
+  },
+  {
+    "opdb_id": "G57X4-MLb1y",
+    "shortname": "NGG"
+  },
+  {
+    "opdb_id": "G5poe-MQrb5",
+    "shortname": "WPT"
+  },
+  {
+    "opdb_id": "GrEke-ML8qN",
+    "shortname": "$6M"
+  },
+  {
+    "opdb_id": "G5vPd-MJp7z",
+    "shortname": "CBW"
+  },
+  {
+    "opdb_id": "G4qvL-MJwVr",
+    "shortname": "CE3K"
+  },
+  {
+    "opdb_id": "GrEWx-MJNpE",
+    "shortname": "RF"
+  },
+  {
+    "opdb_id": "Gr8KB-MLqYW",
+    "shortname": "SSII"
+  },
+  {
+    "opdb_id": "GrEWx-MQPPX",
+    "shortname": "CW"
+  },
+  {
+    "opdb_id": "Gr2wz-MLBob",
+    "shortname": "GEN"
+  },
+  {
+    "opdb_id": "G4jPq-MQdlK",
+    "shortname": "XF"
+  },
+  {
+    "opdb_id": "G420r-MLedz",
+    "shortname": "SWDE"
+  },
+  {
+    "opdb_id": "G4EZe-MJ424",
+    "shortname": "AB"
+  },
+  {
+    "opdb_id": "GRL9r-MD34z",
+    "shortname": "SWE1"
+  },
+  {
+    "opdb_id": "G5vZd-MQpWZ",
+    "shortname": "BR"
+  },
+  {
+    "opdb_id": "GRvzd-MLxV8",
+    "shortname": "HS"
+  },
+  {
+    "opdb_id": "GRzNR-MLlEj",
+    "shortname": "TAV"
+  },
+  {
+    "opdb_id": "G4xyR-MJ2v0",
+    "shortname": "WOZ"
+  },
+  {
+    "opdb_id": "G4JBP-MJ6jr",
+    "shortname": "D&D"
+  },
+  {
+    "opdb_id": "Grq1D-MQokp",
+    "shortname": "POTO"
+  },
+  {
+    "opdb_id": "G4ODR-MLzY7",
+    "shortname": "TAFG"
+  },
+  {
+    "opdb_id": "G5bxy-ML30z",
+    "shortname": "CJ"
+  },
+  {
+    "opdb_id": "G5zd6-MJVo4",
+    "shortname": "GRGR"
+  },
+  {
+    "opdb_id": "G4llj-MQYb2",
+    "shortname": "TOTAN"
+  },
+  {
+    "opdb_id": "GrqZX-MDEPd",
+    "shortname": "LOTR"
+  },
+  {
+    "opdb_id": "GrZxD-MLO4Y",
+    "shortname": "ATH"
+  },
+  {
+    "opdb_id": "G57y6-MLej6",
+    "shortname": "WWF"
+  },
+  {
+    "opdb_id": "G5LW9-MQ6N5",
+    "shortname": "FGY"
+  },
+  {
+    "opdb_id": "Gr3EW-MD3Nj",
+    "shortname": "MB"
+  },
+  {
+    "opdb_id": "Grk62-MD1qe",
+    "shortname": "ROCK"
+  },
+  {
+    "opdb_id": "GrE7e-MQ9N1",
+    "shortname": "WW"
+  },
+  {
+    "opdb_id": "G4x2Y-MQwwe",
+    "shortname": "DW"
+  },
+  {
+    "opdb_id": "G5b38-MDqkx",
+    "shortname": "MET"
+  },
+  {
+    "opdb_id": "GryK3-MQrWk",
+    "shortname": "RW"
+  },
+  {
+    "opdb_id": "GRokL-MQP78",
+    "shortname": "LW3"
+  },
+  {
+    "opdb_id": "G57EJ-MLWB9",
+    "shortname": "MJ"
+  },
+  {
+    "opdb_id": "GrNWn-MQdqZ",
+    "shortname": "CFTBL"
+  },
+  {
+    "opdb_id": "Grj9q-MQ2EZ",
+    "shortname": "DW"
+  },
+  {
+    "opdb_id": "GRYX4-MLqqx",
+    "shortname": "WNBJM"
+  },
+  {
+    "opdb_id": "G41Lo-MJp3y",
+    "shortname": "F!"
+  },
+  {
+    "opdb_id": "GrqZX-MD15w",
+    "shortname": "LOTR"
+  },
+  {
+    "opdb_id": "Gr3Lq-MJZo5",
+    "shortname": "OT"
+  },
+  {
+    "opdb_id": "GR0lW-MJPVV",
+    "shortname": "PSTE"
+  },
+  {
+    "opdb_id": "G4dWd-MJ2p6",
+    "shortname": "RS"
+  },
+  {
+    "opdb_id": "GRYX4-MLRe3",
+    "shortname": "WNBJM"
+  },
+  {
+    "opdb_id": "G4e1d-MJ5Bj",
+    "shortname": "IJ4"
+  },
+  {
+    "opdb_id": "G4jQw-MJ5rl",
+    "shortname": "BG"
+  },
+  {
+    "opdb_id": "GRBE4-MJ9rE",
+    "shortname": "MET"
+  },
+  {
+    "opdb_id": "Grjlx-MQkz3",
+    "shortname": "GB"
+  },
+  {
+    "opdb_id": "G5bYr-MLezO",
+    "shortname": "TH"
+  },
+  {
+    "opdb_id": "GrJkp-MQ21p",
+    "shortname": "AH2"
+  },
+  {
+    "opdb_id": "G4Jdp-MJNrr",
+    "shortname": "CP"
+  },
+  {
+    "opdb_id": "G4E0z-MDvl7",
+    "shortname": "RG"
+  },
+  {
+    "opdb_id": "GrNnr-MJkj3",
+    "shortname": "JP"
+  },
+  {
+    "opdb_id": "G5Wpk-MDWpy",
+    "shortname": "FII"
+  },
+  {
+    "opdb_id": "GrybN-MLl5X",
+    "shortname": "SWT"
+  },
+  {
+    "opdb_id": "GRwyv-MQNwr",
+    "shortname": "BW"
+  },
+  {
+    "opdb_id": "GRwYo-MQoPw",
+    "shortname": "BO"
+  },
+  {
+    "opdb_id": "GRo3e-MQ7OW",
+    "shortname": "HMM"
+  },
+  {
+    "opdb_id": "GrPzV-MDxj7",
+    "shortname": "SOF"
+  },
+  {
+    "opdb_id": "G5wxv-MQP9z",
+    "shortname": "AGSB"
+  },
+  {
+    "opdb_id": "GRwv0-MJ99E",
+    "shortname": "SS"
+  },
+  {
+    "opdb_id": "GRY2O-MLWdy",
+    "shortname": "F14"
+  },
+  {
+    "opdb_id": "G5Kvx-MQdpl",
+    "shortname": "BPAC"
+  },
+  {
+    "opdb_id": "GrNkY-MDbn2",
+    "shortname": "DD"
+  },
+  {
+    "opdb_id": "G5zyN-MJNxr",
+    "shortname": "WOOLY"
+  },
+  {
+    "opdb_id": "G4kBL-MLndo",
+    "shortname": "LW"
+  },
+  {
+    "opdb_id": "GRBxq-MJpOP",
+    "shortname": "SC"
+  },
+  {
+    "opdb_id": "G42E2-MQP9e",
+    "shortname": "WCS"
+  },
+  {
+    "opdb_id": "GR91N-MLOyE",
+    "shortname": "T3"
+  },
+  {
+    "opdb_id": "G4xZy-MLno6",
+    "shortname": "IJ"
+  },
+  {
+    "opdb_id": "Gr2L0-MDz1W",
+    "shortname": "HD"
+  },
+  {
+    "opdb_id": "GRKx7-MJ49e",
+    "shortname": "BR"
+  },
+  {
+    "opdb_id": "G4doo-MLEj1",
+    "shortname": "LL-EE"
+  },
+  {
+    "opdb_id": "G5pEk-MDWe4",
+    "shortname": "LW"
+  },
+  {
+    "opdb_id": "G5Lk0-MDeVZ",
+    "shortname": "AH3"
+  },
+  {
+    "opdb_id": "G5vZZ-MQNNo",
+    "shortname": "MC"
+  },
+  {
+    "opdb_id": "GrN9V-ML8nw",
+    "shortname": "MAV"
+  },
+  {
+    "opdb_id": "Gr2Y2-MDxZq",
+    "shortname": "NF"
+  },
+  {
+    "opdb_id": "Grep0-MQYN4",
+    "shortname": "HT"
+  },
+  {
+    "opdb_id": "G5Lk0-MQjl3",
+    "shortname": "BB"
+  },
+  {
+    "opdb_id": "G48kY-MDxRV",
+    "shortname": "F2K"
+  },
+  {
+    "opdb_id": "G4PXJ-MQPlw",
+    "shortname": "JB"
+  },
+  {
+    "opdb_id": "GR9Bx-MQkd5",
+    "shortname": "T2"
+  },
+  {
+    "opdb_id": "GRVjq-MDbxp",
+    "shortname": "SX"
+  },
+  {
+    "opdb_id": "GrNnr-MQ2Bw",
+    "shortname": "JQ"
+  },
+  {
+    "opdb_id": "Grj6X-MJNV1",
+    "shortname": "XMLE"
+  },
+  {
+    "opdb_id": "GRVq4-MDRKr",
+    "shortname": "IM"
+  },
+  {
+    "opdb_id": "G5WXd-MJrER",
+    "shortname": "GW"
+  },
+  {
+    "opdb_id": "G439V-MDvWZ",
+    "shortname": "EBC"
+  },
+  {
+    "opdb_id": "G48ZN-MQ56q",
+    "shortname": "FB"
+  },
+  {
+    "opdb_id": "G41Z8-MJKvP",
+    "shortname": "PB"
+  },
+  {
+    "opdb_id": "GRWyB-MLz6Z",
+    "shortname": "RBION"
+  },
+  {
+    "opdb_id": "GRYox-MJV2B",
+    "shortname": "SW"
+  },
+  {
+    "opdb_id": "Gre72-MDE5e",
+    "shortname": "PP"
+  },
+  {
+    "opdb_id": "G4ELZ-MQ27w",
+    "shortname": "AMH"
+  },
+  {
+    "opdb_id": "GrlZe-MQY0Y",
+    "shortname": "LCA"
+  },
+  {
+    "opdb_id": "GrNd0-MJNW1",
+    "shortname": "CNG"
+  },
+  {
+    "opdb_id": "G4d8k-MJ5Z8",
+    "shortname": "BG"
+  },
+  {
+    "opdb_id": "GRKOX-MLyrW",
+    "shortname": "J•B"
+  },
+  {
+    "opdb_id": "G5BYQ-MQdBV",
+    "shortname": "SF2"
+  },
+  {
+    "opdb_id": "G4jeW-MDb93",
+    "shortname": "CH"
+  },
+  {
+    "opdb_id": "G5KXk-MLqNz",
+    "shortname": "EBD"
+  },
+  {
+    "opdb_id": "GRvJV-MJ4bR",
+    "shortname": "LC"
+  },
+  {
+    "opdb_id": "GRpbW-MLXq2",
+    "shortname": "BTTF"
+  },
+  {
+    "opdb_id": "G4kzN-MQpYx",
+    "shortname": "BH"
+  },
+  {
+    "opdb_id": "Gr31Y-MQ9bZ",
+    "shortname": "ARG"
+  },
+  {
+    "opdb_id": "Gr2Dk-MQNy7",
+    "shortname": "MMPM"
+  },
+  {
+    "opdb_id": "GrO0D-MQolo",
+    "shortname": "NBAFB"
+  },
+  {
+    "opdb_id": "GrOpb-MQ7w1",
+    "shortname": "BM"
+  },
+  {
+    "opdb_id": "GRLlj-MQZN8",
+    "shortname": "JY"
+  },
+  {
+    "opdb_id": "G5one-MQY5V",
+    "shortname": "LW"
+  },
+  {
+    "opdb_id": "G4qX5-MJN17",
+    "shortname": "KISS"
+  },
+  {
+    "opdb_id": "G5VDd-MJpqO",
+    "shortname": "FP"
+  },
+  {
+    "opdb_id": "G4do5-MDlN7",
+    "shortname": "AFM"
+  },
+  {
+    "opdb_id": "G5Qz4-MQddv",
+    "shortname": "RS"
+  },
+  {
+    "opdb_id": "GRBE4-MQK1Z",
+    "shortname": "MET"
+  },
+  {
+    "opdb_id": "GRBzQ-MLO1j",
+    "shortname": "SMB"
+  },
+  {
+    "opdb_id": "GRv7B-MLqPd",
+    "shortname": "CG"
+  },
+  {
+    "opdb_id": "GrO7w-MDR9W",
+    "shortname": "BK"
+  },
+  {
+    "opdb_id": "G4jXr-MQ6kz",
+    "shortname": "KISS"
+  },
+  {
+    "opdb_id": "GRzB7-MD8ld",
+    "shortname": "FREDDY"
+  },
+  {
+    "opdb_id": "G4xwQ-MQpVO",
+    "shortname": "AS"
+  },
+  {
+    "opdb_id": "G5Wxd-MLxl3",
+    "shortname": "FT"
+  },
+  {
+    "opdb_id": "G59bo-MJPxj",
+    "shortname": "AAA"
+  },
+  {
+    "opdb_id": "G5BP6-MJK4Z",
+    "shortname": "HH"
+  },
+  {
+    "opdb_id": "Grd6d-MLR8W",
+    "shortname": "CH"
+  },
+  {
+    "opdb_id": "G4Obw-ML83d",
+    "shortname": "VPR"
+  },
+  {
+    "opdb_id": "GRwKx-MJV8q",
+    "shortname": "4Q"
+  },
+  {
+    "opdb_id": "G5V92-MJ9XO",
+    "shortname": "GS"
+  },
+  {
+    "opdb_id": "Grep0-MDlv7",
+    "shortname": "HT"
+  },
+  {
+    "opdb_id": "G5V8q-MQYZ6",
+    "shortname": "FTH"
+  },
+  {
+    "opdb_id": "GrJxV-MJNZ2",
+    "shortname": "TKO"
+  },
+  {
+    "opdb_id": "Gryd3-MLqjd",
+    "shortname": "CMT"
+  },
+  {
+    "opdb_id": "G43oq-MJp02",
+    "shortname": "MA"
+  },
+  {
+    "opdb_id": "GR91x-MLBZE",
+    "shortname": "LIS"
+  },
+  {
+    "opdb_id": "G5nbD-MDbBo",
+    "shortname": "BJ"
+  },
+  {
+    "opdb_id": "GRwlz-MQYZN",
+    "shortname": "RFD"
+  },
+  {
+    "opdb_id": "G5K6X-MQjwK",
+    "shortname": "BW100"
+  },
+  {
+    "opdb_id": "GRK95-MQ674",
+    "shortname": "FS"
+  },
+  {
+    "opdb_id": "GrkL5-MJoNN",
+    "shortname": "TRON"
+  },
+  {
+    "opdb_id": "GrN90-MJrnj",
+    "shortname": "TXI"
+  },
+  {
+    "opdb_id": "G4O1L-MDW47",
+    "shortname": "GP"
+  },
+  {
+    "opdb_id": "GRY7E-MLbEo",
+    "shortname": "AFT"
+  },
+  {
+    "opdb_id": "Grkpd-MQrjj",
+    "shortname": "A777"
+  },
+  {
+    "opdb_id": "G5BLE-MQ75Y",
+    "shortname": "TOM"
+  },
+  {
+    "opdb_id": "GrkL5-MLvrX",
+    "shortname": "TRON"
+  },
+  {
+    "opdb_id": "G41yq-MQP65",
+    "shortname": "BH"
+  },
+  {
+    "opdb_id": "GR7ZX-MQ23b",
+    "shortname": "POTC"
+  },
+  {
+    "opdb_id": "GrXEW-MDEwr",
+    "shortname": "Stars"
+  },
+  {
+    "opdb_id": "G5B9Z-MLBjW",
+    "shortname": "HH"
+  },
+  {
+    "opdb_id": "G59zN-MLy0N",
+    "shortname": "BF"
+  },
+  {
+    "opdb_id": "G59wx-MLnZ3",
+    "shortname": "EK"
+  },
+  {
+    "opdb_id": "G4lLp-MQ5Xy",
+    "shortname": "SW"
+  },
+  {
+    "opdb_id": "G4qbD-MQpxv",
+    "shortname": "SP"
+  },
+  {
+    "opdb_id": "G5D94-MyNBN",
+    "shortname": "BSM"
+  },
+  {
+    "opdb_id": "GrOwV-Ml9kO",
+    "shortname": "WF"
+  },
+  {
+    "opdb_id": "GRBZl-Mb5Zq",
+    "shortname": "QS"
+  },
+  {
+    "opdb_id": "G48w3-Mq1Zk",
+    "shortname": "MON"
+  },
+  {
+    "opdb_id": "GrXlr-MOEE2",
+    "shortname": "SM"
+  },
+  {
+    "opdb_id": "G4doQ-MKNN9",
+    "shortname": "ID4"
+  },
+  {
+    "opdb_id": "GR6W8-Mb55B",
+    "shortname": "JM"
+  },
+  {
+    "opdb_id": "Gry3j-Mq1Oe",
+    "shortname": "J!"
+  },
+  {
+    "opdb_id": "G5nz5-M3d38",
+    "shortname": "TWD"
+  },
+  {
+    "opdb_id": "GR6d8-M1rZd",
+    "shortname": "STTNG"
+  },
+  {
+    "opdb_id": "G4jPX-M85YZ",
+    "shortname": "TS"
+  },
+  {
+    "opdb_id": "Gr89x-Mp4nB",
+    "shortname": "MT"
+  },
+  {
+    "opdb_id": "GRnPz-Mx0XO",
+    "shortname": "TFLE"
+  },
+  {
+    "opdb_id": "GR0nO-MdE2B",
+    "shortname": "LL"
+  },
+  {
+    "opdb_id": "G4yLE-Mq1ee",
+    "shortname": "tnt"
+  },
+  {
+    "opdb_id": "GrJ2Z-M61Xd",
+    "shortname": "DH"
+  },
+  {
+    "opdb_id": "G4XPZ-M7Zob",
+    "shortname": "GL"
+  },
+  {
+    "opdb_id": "G5WBr-MvB3E",
+    "shortname": "TBL"
+  },
+  {
+    "opdb_id": "GRzNR-MyNq8",
+    "shortname": "TAV"
+  },
+  {
+    "opdb_id": "Grx8Y-MKNe9",
+    "shortname": "HS2"
+  },
+  {
+    "opdb_id": "G5pe4-MePZv",
+    "shortname": "MM"
+  },
+  {
+    "opdb_id": "G5nO8-ME0Wo",
+    "shortname": "BH"
+  },
+  {
+    "opdb_id": "G50pv-MdE6R",
+    "shortname": "SG"
+  },
+  {
+    "opdb_id": "GRpYQ-MRj0O",
+    "shortname": "CP"
+  },
+  {
+    "opdb_id": "G43BW-M3dKV",
+    "shortname": "AP"
+  },
+  {
+    "opdb_id": "G4yVw-M85j8",
+    "shortname": "BDK"
+  },
+  {
+    "opdb_id": "G5pNW-MVK46",
+    "shortname": "R911"
+  },
+  {
+    "opdb_id": "G482d-Mp4kk",
+    "shortname": "SJ"
+  },
+  {
+    "opdb_id": "G41d5-MKNwX",
+    "shortname": "GOT"
+  },
+  {
+    "opdb_id": "Gr1qn-MYerP",
+    "shortname": "Q*B"
+  },
+  {
+    "opdb_id": "GR96Q-MNEnx",
+    "shortname": "EWF"
+  },
+  {
+    "opdb_id": "Gryw4-MRj4O",
+    "shortname": "ST"
+  },
+  {
+    "opdb_id": "GRD67-Mo1Ol",
+    "shortname": "U65"
+  },
+  {
+    "opdb_id": "GrP6q-M5Rp1",
+    "shortname": "NGS"
+  },
+  {
+    "opdb_id": "Grx7Q-Mp45k",
+    "shortname": "O1"
+  },
+  {
+    "opdb_id": "GRB7E-MP3rR",
+    "shortname": "MSF"
+  },
+  {
+    "opdb_id": "G5K19-MBRlz",
+    "shortname": "NBA"
+  },
+  {
+    "opdb_id": "G417e-Ml9ZE",
+    "shortname": "MH"
+  },
+  {
+    "opdb_id": "GR6Or-MwNex",
+    "shortname": "WWE"
+  },
+  {
+    "opdb_id": "G5WOo-MePp0",
+    "shortname": "BG"
+  },
+  {
+    "opdb_id": "GRWYk-Mb5OV",
+    "shortname": "FP2"
+  },
+  {
+    "opdb_id": "G4qk7-MNEjx",
+    "shortname": "EMB"
+  },
+  {
+    "opdb_id": "G4xbP-Mp45Y",
+    "shortname": "SS"
+  },
+  {
+    "opdb_id": "G5nz5-MP3r1",
+    "shortname": "TWD"
+  },
+  {
+    "opdb_id": "G41d5-M9REd",
+    "shortname": "GOT"
+  },
+  {
+    "opdb_id": "GRQKz-MyNXz",
+    "shortname": "WH2O"
+  },
+  {
+    "opdb_id": "G48ZN-Mb58O",
+    "shortname": "FB"
+  },
+  {
+    "opdb_id": "G43W4-MXrPx",
+    "shortname": "ACDC"
+  },
+  {
+    "opdb_id": "GrJkp-M1rBN",
+    "shortname": "AH1"
+  },
+  {
+    "opdb_id": "GRBqq-Mp4ZY",
+    "shortname": "MA"
+  },
+  {
+    "opdb_id": "GRnwQ-M9R5d",
+    "shortname": "HARLEM"
+  },
+  {
+    "opdb_id": "GRLz0-MeP4B",
+    "shortname": "AGBGOAWT"
+  },
+  {
+    "opdb_id": "GRBxQ-MnKX7",
+    "shortname": "GI"
+  },
+  {
+    "opdb_id": "G4NKJ-Mo1Xj",
+    "shortname": "RK"
+  },
+  {
+    "opdb_id": "G5Dbo-M3dv6",
+    "shortname": "FS"
+  },
+  {
+    "opdb_id": "GR6Or-MKNYR",
+    "shortname": "WWE"
+  },
+  {
+    "opdb_id": "Gry7q-MwNE2",
+    "shortname": "FB2"
+  },
+  {
+    "opdb_id": "G4835-Mb5eO",
+    "shortname": "CC"
+  },
+  {
+    "opdb_id": "G5DYX-M0oVW",
+    "shortname": "C1812"
+  },
+  {
+    "opdb_id": "GRVZ8-M5RO0",
+    "shortname": "4MBC"
+  },
+  {
+    "opdb_id": "GRw0r-Mp42p",
+    "shortname": "ES"
+  },
+  {
+    "opdb_id": "GR9lZ-MkP2j",
+    "shortname": "BR"
+  },
+  {
+    "opdb_id": "GrxPP-Ml91r",
+    "shortname": "BK2K"
+  },
+  {
+    "opdb_id": "G5Dz7-Mq139",
+    "shortname": "FH"
+  },
+  {
+    "opdb_id": "G4qX5-Mz2Pp",
+    "shortname": "KISS"
+  },
+  {
+    "opdb_id": "Grxvy-M4oZj",
+    "shortname": "BW"
+  },
+  {
+    "opdb_id": "GRYzo-MP3p7",
+    "shortname": "GCP"
+  },
+  {
+    "opdb_id": "GRveZ-MNE38",
+    "shortname": "CF"
+  },
+  {
+    "opdb_id": "GrZ1k-MrRKZ",
+    "shortname": "C37"
+  },
+  {
+    "opdb_id": "G5n38-M1rw3",
+    "shortname": "MIL"
+  },
+  {
+    "opdb_id": "Grlxp-MVKBW",
+    "shortname": "EATPM"
+  },
+  {
+    "opdb_id": "GrEBz-MBR3N",
+    "shortname": "BC"
+  },
+  {
+    "opdb_id": "GrPKV-MyNoP",
+    "shortname": "GNR"
+  },
+  {
+    "opdb_id": "G5wxv-MnKkN",
+    "shortname": "AGF"
+  },
+  {
+    "opdb_id": "G5zZ7-Mp474",
+    "shortname": "MNF"
+  },
+  {
+    "opdb_id": "Gr8xn-MKN66",
+    "shortname": "TMNT"
+  },
+  {
+    "opdb_id": "G42Zz-MeP7R",
+    "shortname": "PA"
+  },
+  {
+    "opdb_id": "GrNqO-MRjzl",
+    "shortname": "WC"
+  },
+  {
+    "opdb_id": "G4d8d-MVKOR",
+    "shortname": "PF"
+  },
+  {
+    "opdb_id": "G41do-MP3Py",
+    "shortname": "BSD"
+  },
+  {
+    "opdb_id": "GRwyq-MW9lN",
+    "shortname": "LAH"
+  },
+  {
+    "opdb_id": "G5Woz-MKNq6",
+    "shortname": "CA"
+  },
+  {
+    "opdb_id": "G5Woz-MwNP3",
+    "shortname": "CA"
+  },
+  {
+    "opdb_id": "GRpee-MePdR",
+    "shortname": "BOP"
+  },
+  {
+    "opdb_id": "Grybw-M5R0n",
+    "shortname": "RCT"
+  },
+  {
+    "opdb_id": "GrXzD-MjBPX",
+    "shortname": "TZ"
+  },
+  {
+    "opdb_id": "Gr1Ko-MnKyx",
+    "shortname": "RG"
+  },
+  {
+    "opdb_id": "GRKpw-M5R0E",
+    "shortname": "HG"
+  },
+  {
+    "opdb_id": "GRvBL-MP3Ev",
+    "shortname": "TSPP"
+  },
+  {
+    "opdb_id": "GrO7w-M9R03",
+    "shortname": "BK"
+  },
+  {
+    "opdb_id": "GRw0Z-Ml9Eb",
+    "shortname": "BV"
+  },
+  {
+    "opdb_id": "G4q3L-MKN50",
+    "shortname": "SS"
+  },
+  {
+    "opdb_id": "Gryw4-MwNky",
+    "shortname": "ST"
+  },
+  {
+    "opdb_id": "Gryw4-MNEKn",
+    "shortname": "ST"
+  },
+  {
+    "opdb_id": "G41d5-M0ovk",
+    "shortname": "GOT"
+  },
+  {
+    "opdb_id": "GRoz4-MjBV6",
+    "shortname": "B66"
+  },
+  {
+    "opdb_id": "GRYX4-MRjVP",
+    "shortname": "PBR"
+  },
+  {
+    "opdb_id": "GRoz4-MrRPw",
+    "shortname": "B66"
+  },
+  {
+    "opdb_id": "GR9Nr-Mz2dY",
+    "shortname": "GB"
+  },
+  {
+    "opdb_id": "G5nz5-M7Z94",
+    "shortname": "TWD"
+  },
+  {
+    "opdb_id": "G5D94-M3d5w",
+    "shortname": "SM"
+  },
+  {
+    "opdb_id": "G5vLR-MZebq",
+    "shortname": "SW"
+  },
+  {
+    "opdb_id": "GR9Nr-MVKol",
+    "shortname": "GB"
+  },
+  {
+    "opdb_id": "GR9Nr-M5RxE",
+    "shortname": "GB"
+  },
+  {
+    "opdb_id": "G5pe4-MkPRV",
+    "shortname": "MM"
+  },
+  {
+    "opdb_id": "G43W4-MKNW0",
+    "shortname": "ACDC"
+  },
+  {
+    "opdb_id": "GredR-Mb5jN",
+    "shortname": "TRS"
+  },
+  {
+    "opdb_id": "G43W4-MrRpw",
+    "shortname": "ACDC"
+  },
+  {
+    "opdb_id": "GRzNR-Mz2WY",
+    "shortname": "TAV"
+  },
+  {
+    "opdb_id": "GRVq4-M4oNp",
+    "shortname": "IM"
+  },
+  {
+    "opdb_id": "G5vLR-ME049",
+    "shortname": "SW"
+  },
+  {
+    "opdb_id": "G5pe4-MyNkp",
+    "shortname": "MM"
+  },
+  {
+    "opdb_id": "G4do5-MkPnV",
+    "shortname": "AFM"
+  },
+  {
+    "opdb_id": "G4do5-MW9z8",
+    "shortname": "AFM"
+  },
+  {
+    "opdb_id": "G4qX5-Ml9jb",
+    "shortname": "KISS"
+  },
+  {
+    "opdb_id": "G43W4-MdEjy",
+    "shortname": "ACDC"
+  },
+  {
+    "opdb_id": "G43W4-MKNX0",
+    "shortname": "ACDC"
+  },
+  {
+    "opdb_id": "GRBE4-MOE4l",
+    "shortname": "MET"
+  },
+  {
+    "opdb_id": "G5vLR-MwNwy",
+    "shortname": "SW"
+  },
+  {
+    "opdb_id": "GRbPY-MePOP",
+    "shortname": "POTC"
+  },
+  {
+    "opdb_id": "G4X2l-MYepl",
+    "shortname": "DI"
+  },
+  {
+    "opdb_id": "GRD79-M0odk",
+    "shortname": "TNA"
+  },
+  {
+    "opdb_id": "Gr16e-MnKEX",
+    "shortname": "AS"
+  },
+  {
+    "opdb_id": "Gr16e-Mq1k3",
+    "shortname": "AS"
+  },
+  {
+    "opdb_id": "Gr16e-M5Rbv",
+    "shortname": "AS"
+  },
+  {
+    "opdb_id": "GRWvz-Mp4yl",
+    "shortname": "GOTG"
+  },
+  {
+    "opdb_id": "GRWvz-Mx0eb",
+    "shortname": "GOTG"
+  },
+  {
+    "opdb_id": "GRWvz-MP37P",
+    "shortname": "GOTG"
+  },
+  {
+    "opdb_id": "GrlXK-M9RV0",
+    "shortname": "ACNC"
+  },
+  {
+    "opdb_id": "G5pp2-ME0eP",
+    "shortname": "RZ"
+  },
+  {
+    "opdb_id": "G5pp2-MBRK4",
+    "shortname": "RZ"
+  },
+  {
+    "opdb_id": "G4dOQ-MyNbb",
+    "shortname": "LotB"
+  },
+  {
+    "opdb_id": "G4dOQ-MkPxr",
+    "shortname": "LotB"
+  },
+  {
+    "opdb_id": "G4dOQ-MW970",
+    "shortname": "LotB"
+  },
+  {
+    "opdb_id": "G56vo-Ml9Pp",
+    "shortname": "BBB"
+  },
+  {
+    "opdb_id": "Gryw4-MOE7P",
+    "shortname": "ST"
+  },
+  {
+    "opdb_id": "Gryw4-MwNwZ",
+    "shortname": "ST"
+  },
+  {
+    "opdb_id": "G4do5-MjBp2",
+    "shortname": "AFM"
+  },
+  {
+    "opdb_id": "G2Ld3-MnKE5",
+    "shortname": "SM"
+  },
+  {
+    "opdb_id": "G6lnq-Mq1kv",
+    "shortname": "DP"
+  },
+  {
+    "opdb_id": "G6lnq-MRj7Z",
+    "shortname": "DP"
+  },
+  {
+    "opdb_id": "G6lnq-M6153",
+    "shortname": "DP"
+  },
+  {
+    "opdb_id": "GRveZ-M4oyo",
+    "shortname": "CP"
+  },
+  {
+    "opdb_id": "Gr3EW-M3dBn",
+    "shortname": "MB"
+  },
+  {
+    "opdb_id": "Gr3EW-MXryE",
+    "shortname": "MB"
+  },
+  {
+    "opdb_id": "Gr3EW-M1r9Y",
+    "shortname": "MB"
+  },
+  {
+    "opdb_id": "GD7Ld-ME0BP",
+    "shortname": "BK:SR"
+  },
+  {
+    "opdb_id": "GD7Ld-MBRP4",
+    "shortname": "BK:SR"
+  },
+  {
+    "opdb_id": "GYWBZ-MkPrr",
+    "shortname": "WONKA"
+  },
+  {
+    "opdb_id": "GYWBZ-MW9B0",
+    "shortname": "WONKA"
+  },
+  {
+    "opdb_id": "GK17D-MdEqz",
+    "shortname": "JP"
+  },
+  {
+    "opdb_id": "GK17D-MKNKd",
+    "shortname": "JP"
+  },
+  {
+    "opdb_id": "GkBPY-MOEbP",
+    "shortname": "CC"
+  },
+  {
+    "opdb_id": "GZVOd-MwNxZ",
+    "shortname": "E:HoH"
+  },
+  {
+    "opdb_id": "G5bv3-MePXV",
+    "shortname": "DMoS"
+  },
+  {
+    "opdb_id": "Ge1L8-Mb52x",
+    "shortname": "RAZA"
+  },
+  {
+    "opdb_id": "G4835-M2YEn",
+    "shortname": "CCC"
+  },
+  {
+    "opdb_id": "GQKb2-MYek0",
+    "shortname": "RM"
+  },
+  {
+    "opdb_id": "Gzy89-MNEeO",
+    "shortname": "ST"
+  },
+  {
+    "opdb_id": "Gzy89-M0oPy",
+    "shortname": "ST"
+  },
+  {
+    "opdb_id": "GpePX-MnKq5",
+    "shortname": "SW"
+  },
+  {
+    "opdb_id": "Gd2Xb-Mq1qv",
+    "shortname": "TMNT"
+  },
+  {
+    "opdb_id": "Gd2Xb-MRjpZ",
+    "shortname": "TMNT"
+  },
+  {
+    "opdb_id": "GEL31-M61W3",
+    "shortname": "HW"
+  },
+  {
+    "opdb_id": "GoEej-Mo1q0",
+    "shortname": "HM"
+  },
+  {
+    "opdb_id": "G5pe4-MrR1B",
+    "shortname": "MM"
+  },
+  {
+    "opdb_id": "Gj66P-M3dxn",
+    "shortname": "A:IQ"
+  },
+  {
+    "opdb_id": "Gj66P-MXr0E",
+    "shortname": "A:IQ"
+  },
+  {
+    "opdb_id": "GqZZ1-M1r5Y",
+    "shortname": "GNR"
+  },
+  {
+    "opdb_id": "GqZZ1-M85y9",
+    "shortname": "GNR"
+  },
+  {
+    "opdb_id": "GqZZ1-MZeoE",
+    "shortname": "GNR"
+  },
+  {
+    "opdb_id": "G9zzB-MvBKz",
+    "shortname": "CELT"
+  },
+  {
+    "opdb_id": "GyVVQ-MVKYX",
+    "shortname": "HD"
+  },
+  {
+    "opdb_id": "GPBB9-M5R9v",
+    "shortname": "CCR"
+  },
+  {
+    "opdb_id": "Gweel-M9Rk0",
+    "shortname": "LZ"
+  },
+  {
+    "opdb_id": "Gweel-ME0pP",
+    "shortname": "LZ"
+  },
+  {
+    "opdb_id": "GRbPY-MBR24",
+    "shortname": "POTC"
+  },
+  {
+    "opdb_id": "GBLLP-MkPpr",
+    "shortname": "MANDO"
+  },
+  {
+    "opdb_id": "GBLLP-MW900",
+    "shortname": "MANDO"
+  },
+  {
+    "opdb_id": "G6llq-MwNOZ",
+    "shortname": "CL"
+  },
+  {
+    "opdb_id": "GN66q-MeP0V",
+    "shortname": "SnS"
+  },
+  {
+    "opdb_id": "GLWWV-Mb5Xx",
+    "shortname": "RITR"
+  },
+  {
+    "opdb_id": "GpeeL-MYez0",
+    "shortname": "LL:SAS"
+  },
+  {
+    "opdb_id": "GweeP-MW95j",
+    "shortname": "GZ"
+  },
+  {
+    "opdb_id": "GweeP-Ml9pZ",
+    "shortname": "GZ"
+  },
+  {
+    "opdb_id": "GxvvB-MOEKX",
+    "shortname": "JP"
+  },
+  {
+    "opdb_id": "G4835-M2YPK",
+    "shortname": "CC"
+  },
+  {
+    "opdb_id": "G2Lkd-MNEdK",
+    "shortname": "RUSH"
+  },
+  {
+    "opdb_id": "G2Lkd-M0ope",
+    "shortname": "RUSH"
+  },
+  {
+    "opdb_id": "GN6WW-MnKPq",
+    "shortname": "WAL"
+  },
+  {
+    "opdb_id": "G5pe4-M61y6",
+    "shortname": "MM"
+  },
+  {
+    "opdb_id": "GJ2o0-MrRye",
+    "shortname": "TS4"
+  },
+  {
+    "opdb_id": "G5Dz7-Mz2e1",
+    "shortname": "FH2"
+  },
+  {
+    "opdb_id": "GQKyP-Mx0O4",
+    "shortname": "007"
+  },
+  {
+    "opdb_id": "GQKyP-MP3OK",
+    "shortname": "007"
+  },
+  {
+    "opdb_id": "Ge1Dy-M9Rrp",
+    "shortname": "007"
+  },
+  {
+    "opdb_id": "GllPz-MBRrV",
+    "shortname": "SD"
+  },
+  {
+    "opdb_id": "GV8j1-M0oZe",
+    "shortname": "SH"
+  },
+  {
+    "opdb_id": "GD7Ld-MBRP4-A1e4P",
+    "shortname": "BK:SR"
+  },
+  {
+    "opdb_id": "GYWBZ-MW9B0-A9jqd",
+    "shortname": "WONKA"
+  },
+  {
+    "opdb_id": "G5KXk-MLB9V-A1JKr",
+    "shortname": "EBD"
+  },
+  {
+    "opdb_id": "GK17D-MKNKd-A15Yn",
+    "shortname": "JP"
+  },
+  {
+    "opdb_id": "GK17D-MKNKd-AOyKv",
+    "shortname": "JP"
+  },
+  {
+    "opdb_id": "GZVOd-MwNxZ-AOLoy",
+    "shortname": "E:HoH"
+  },
+  {
+    "opdb_id": "GZVOd-MwNxZ-AR8vV",
+    "shortname": "E:HoH"
+  },
+  {
+    "opdb_id": "GZVOd-MwNxZ-ARove",
+    "shortname": "E:HoH"
+  },
+  {
+    "opdb_id": "G5vLR-ME049-ARrK0",
+    "shortname": "SW"
+  },
+  {
+    "opdb_id": "G5vLR-MwNwy-A9Vob",
+    "shortname": "SW"
+  },
+  {
+    "opdb_id": "Gzy89-M0oPy-A1zrL",
+    "shortname": "ST"
+  },
+  {
+    "opdb_id": "Gzy89-M0oPy-A9xXV",
+    "shortname": "ST"
+  },
+  {
+    "opdb_id": "Gd2Xb-MRjpZ-A9wqN",
+    "shortname": "TMNT"
+  },
+  {
+    "opdb_id": "Gd2Xb-MRjpZ-A92v0",
+    "shortname": "TMNT"
+  },
+  {
+    "opdb_id": "Gj66P-MXr0E-A1nx0",
+    "shortname": "A:IQ"
+  },
+  {
+    "opdb_id": "Gj66P-MXr0E-ARkqN",
+    "shortname": "A:IQ"
+  },
+  {
+    "opdb_id": "GRoz4-MjBV6-A1Den",
+    "shortname": "B66"
+  },
+  {
+    "opdb_id": "Gweel-ME0pP-ARqVK",
+    "shortname": "LZ"
+  },
+  {
+    "opdb_id": "Gweel-ME0pP-AR0N5",
+    "shortname": "LZ"
+  },
+  {
+    "opdb_id": "G5bYr-MLezO-A9dNe",
+    "shortname": "TH"
+  },
+  {
+    "opdb_id": "G5bYr-MLezO-A97xX",
+    "shortname": "TH"
+  },
+  {
+    "opdb_id": "G4xyR-MJ2v0-AOPQQ",
+    "shortname": "WOZ"
+  },
+  {
+    "opdb_id": "G4xyR-MJ2v0-A1BY7",
+    "shortname": "WOZ"
+  },
+  {
+    "opdb_id": "G4xyR-MJ2v0-AO62D",
+    "shortname": "WOZ"
+  },
+  {
+    "opdb_id": "G4xyR-MJ2v0-ARNw3",
+    "shortname": "WOZ"
+  },
+  {
+    "opdb_id": "G4X2l-MYepl-A1WXy",
+    "shortname": "DI"
+  },
+  {
+    "opdb_id": "G4X2l-MYepl-ARXxn",
+    "shortname": "DI"
+  },
+  {
+    "opdb_id": "GRbPY-MePOP-A9pVl",
+    "shortname": "POTC"
+  },
+  {
+    "opdb_id": "GBLLP-MW900-AOEEN",
+    "shortname": "MANDO"
+  },
+  {
+    "opdb_id": "GBLLP-MW900-A1KoQ",
+    "shortname": "MANDO"
+  },
+  {
+    "opdb_id": "GweeP-Ml9pZ-ARZoY",
+    "shortname": "GZ"
+  },
+  {
+    "opdb_id": "GweeP-Ml9pZ-A9vXB",
+    "shortname": "GZ"
+  },
+  {
+    "opdb_id": "GZVOd-MwNxZ-A1lvp",
+    "shortname": "A:HoH"
+  },
+  {
+    "opdb_id": "G4835-M2YPK-AR5ln",
+    "shortname": "CC"
+  },
+  {
+    "opdb_id": "G4835-M2YPK-A9ylv",
+    "shortname": "CC"
+  },
+  {
+    "opdb_id": "G2Lkd-M0ope-A9dNy",
+    "shortname": "RUSH"
+  },
+  {
+    "opdb_id": "G2Lkd-M0ope-A97xV",
+    "shortname": "RUSH"
+  },
+  {
+    "opdb_id": "GJ2o0-MrRye-ARNwE",
+    "shortname": "TS4"
+  },
+  {
+    "opdb_id": "G9zzB-MvBKz-A1WX8",
+    "shortname": "CELT"
+  },
+  {
+    "opdb_id": "GQKyP-MP3OK-AOEEx",
+    "shortname": "007"
+  },
+  {
+    "opdb_id": "GQKyP-MP3OK-A1KoX",
+    "shortname": "007"
+  },
+  {
+    "opdb_id": "GRD79-M0odk-AObBw",
+    "shortname": "TNA"
+  },
+  {
+    "opdb_id": "GllPz-MBRrV-ARZo2",
+    "shortname": "SD"
+  },
+  {
+    "opdb_id": "GllPz-MBRrV-A9vWL",
+    "shortname": "SD"
+  }
+]

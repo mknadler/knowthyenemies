@@ -1,0 +1,23 @@
+
+:root {
+/* Color definitions */
+--color-darkpurp: #110026;
+--color-lightgray: #EDEDED;
+--color-medpink: #C2366E;
+--color-darkpink: #7F2153;
+--color-darkerpink: #48113D;
+/* Font definitions */
+--font-space-mono: "Space Mono", monospace;
+--font-space-grotesk: "Space Grotesk", serif;
+/* Color usage */
+--color-background: var(--color-darkpurp);
+--color-text: var(--color-lightgray);
+--color-accents: var(--color-medpink);
+--color-button-primary: var(--color-medpink);
+--color-button-secondary: var(--color-darkpink);
+/* Font usage */
+--font-headings: var(--font-space-grotesk);
+--font-table: var(--font-space-mono);
+--font-copy: var(--font-space-grotesk);
+--font-form: var(--font-space-grotesk);
+}

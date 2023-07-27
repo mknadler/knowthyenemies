@@ -1,0 +1,110 @@
+$border-radius: 5px;
+
+form {
+  display: grid;
+}
+
+.form-controls {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  .buttoned-input {
+    flex-shrink: 0;
+    margin-right: 2rem;
+  }
+  .example-button {
+    flex-basis: 10rem;
+    margin-top: 1rem;
+  }
+}
+
+form label {
+  display: block;
+  width: 100%;
+}
+
+button {
+  color: var(--color-lightgray);
+  font-family: var(--font-space-mono);
+  font-weight: bold;
+  padding: 0 1rem;
+  transition: background 100ms ease-in;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.button--primary {
+  background: var(--color-medpink);
+  border: 1px solid var(--color-lightgray);
+  &:hover {
+    background: var(--color-darkpink);
+  } 
+  &:active {
+    background: var(--color-medpink);
+  }
+}
+
+.button--secondary {
+  background: var(--color-darkpink);
+  border: 1px solid var(--color-lightgray);
+  &:hover {
+    background: var(--color-darkerpink);
+  } 
+  &:active {
+    background: var(--color-darkpink);
+  }
+}
+
+input {
+  background: transparent;
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: 100;
+  color: var(--color-lightgray);
+}
+
+input[type="text"], button {
+  height: 2.5rem;
+  border: 1px solid var(--color-lightgray);
+  border-radius: $border-radius;
+  &:focus, &:focus-within {
+    outline-color: var(--color-medpink);
+    outline: 3px solid var(--color-darkpink);
+    outline-offset: 1px;
+  }
+}
+
+.buttoned-input {
+  $height: 2.5rem;
+  label {
+    font-family: var(--font-form);
+    font-size: 24px;
+    font-weight: 100;
+  }
+  input {
+    flex-basis: 100%;
+    flex-shrink: 1;
+    background: transparent;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  button {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 7rem;
+    flex-basis: 7rem;
+    flex-shrink: 0;
+  }
+}
+
+.buttoned-input__controls {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 30rem;
+}
