@@ -11,4 +11,7 @@ body {
   color: var(--color-text);
   font-family: var(--font-copy);
   padding: 2rem;
+  @media (max-width: 30rem) {
+    padding: 1rem;
+  }
 }
