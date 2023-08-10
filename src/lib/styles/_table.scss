@@ -15,8 +15,8 @@ table, td, tr, th {
 }
 
 th {
-  max-width: 3rem;
-  width: 3rem;
+  max-width: 4rem;
+  width: 4rem;
   border-bottom: 1px solid var(--color-accents);
   padding: 4px 0;
   position: sticky;
@@ -58,7 +58,7 @@ th:not(:last-child) {
 
 tbody {
   td {
-    width: 3rem;
+    width: 4rem;
   }
   td:first-child {
     max-width: 8rem;
@@ -100,11 +100,11 @@ td, .result-cell {
   height: 1.7rem;
 }
 .result-cell__avg {
-  padding-left: .25rem;
+  padding-left: 2px;
   flex-basis: 60%;
 }
 
 .result-cell__count {
-  padding-right: .25rem;
+  padding-right: 2px;
   flex-basis: 40%;
 }

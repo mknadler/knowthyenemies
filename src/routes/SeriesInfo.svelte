@@ -10,8 +10,13 @@ import PlayerRow from './PlayerRow.svelte'
 <h2>{series.name}</h2>
 
 {#if arenas}
-	<div class="example" style="display: none;">
-	<p>Legend: <span><span>1.5</span><span>3</span></span> means "averaged 1.5th place across 3 games"</p>
+	<div class="example">
+	<p>How to read: 
+		<span class="example__wrapper">
+			<span class="example__average">1.5</span><span class="example__count">3</span>
+		</span> 
+		means "averaged 1.5th place across 3 games"
+	</p>
 	</div>
 
 	<table>
@@ -45,6 +50,28 @@ import PlayerRow from './PlayerRow.svelte'
 		right: 2px;
 		width: max-content;
 		z-index: 4;
+	}
 
+	.example {
+		font-family: var(--font-table);
+		font-size: 13px;
+	}
+	.example p {
+		line-height: 2;
+	}
+	.example__wrapper {
+		display: inline-block;
+	}
+	.example__average, .example__count {
+		padding: 4px;
+		border: 1px solid var(--color-accents);
+	}
+	.example__average {
+		background: #3f3350;
+		border-right: none;
+	}
+	.example__count {
+		background: #251638;
+		border-left: none;
 	}
 </style>
