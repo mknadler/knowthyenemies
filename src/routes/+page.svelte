@@ -92,7 +92,7 @@
 			<span>What is this?</span><p>A tool for pinball players to see how well different players did on certain machines during a series (group of tournaments) run through <a href="https://next.matchplay.events/">MatchPlay</a>. If you don't have a MatchPlay series id handy but want to try this out, use '2735'.</p>
 		</div>
 		<div class="about__section">
-			<span>Who made this?</span><p><a href="https://miri.page">Miriam Nadler</a>. You can see the code <a href="https://github.com/mknadler/knowthyenemies">here</a>. For feedback, use the contact form on my personal site.</p>
+			<span>Who made this?</span><p><a href="https://miri.page">Miriam Nadler</a>. You can see the code <a href="https://github.com/mknadler/knowthyenemies">here</a>. For feedback, open an issue on GitHub or use the contact form on my personal site.</p>
 		</div>
 		<div class="about__section">
 			<span>What's next?</span><p>I plan on adding filtering and sorting options as well as more granular views of data.</p>
