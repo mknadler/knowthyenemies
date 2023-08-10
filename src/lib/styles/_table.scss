@@ -2,7 +2,8 @@
 table {
   border: none;
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   font-family: var(--font-table);
   font-size: 12px;
   table-layout: fixed;
@@ -16,7 +17,26 @@ table, td, tr, th {
 th {
   max-width: 3rem;
   width: 3rem;
+  border-bottom: 1px solid var(--color-accents);
+  padding: 4px 0;
+  position: sticky;
+  top: 1.5rem;
+  background: var(--color-background);
+  z-index: 3;
+  &:after {
+    content: '';
+    width: 110%;
+    height: 1.5rem;
+    display: block;
+    background: var(--color-background);
+    position: absolute;
+    top: -1.5rem;
+    left: -5%;
+    right: 0;
+    margin: auto;
+  }
 }
+
 th:first-child {
   max-width: 9rem;
   width: 9rem;
@@ -26,19 +46,14 @@ tr {
   background: #251638;
   height: 1.75rem;
 }
+
 tr:nth-child(2n) {
   background: #392B4A;
 }
+
 tbody td:not(:last-child),
 th:not(:last-child) {
   border-right: 1px solid var(--color-accents);
-}
-th {
-  border-bottom: 1px solid var(--color-accents);
-}
-
-th {
-  padding: 4px 0;
 }
 
 tbody {
@@ -51,6 +66,10 @@ tbody {
     text-overflow: ellipsis;
     white-space: nowrap;
     padding-left: 4px;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: inherit;
   }
   td:not(:first-child) {
     background: linear-gradient(to right, 

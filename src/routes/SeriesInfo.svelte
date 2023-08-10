@@ -33,10 +33,6 @@ import PlayerRow from './PlayerRow.svelte'
 	h2 {
 		margin-top: 3rem;
 	}
-
-	th[data-name] {
-		position: relative;
-	}
 	th[data-name]:before {
 		content: attr(data-name);
 		display: none;
@@ -48,6 +44,7 @@ import PlayerRow from './PlayerRow.svelte'
 		text-align: right;
 		right: 0;
 		width: max-content;
+		z-index: 4;
 
 	}
 </style>
