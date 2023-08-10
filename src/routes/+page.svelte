@@ -85,7 +85,6 @@
 </svelte:head>
 
 <section>
-	<!-- <Search /> -->
 	<h1>Know thy enemies</h1>
 	<section class="about">
 		<div class="about__section">

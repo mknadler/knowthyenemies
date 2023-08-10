@@ -15,6 +15,7 @@ const opdbHeaders = {
 }
 
 const onlyDigitsRegExp = new RegExp('^[0-9]+$');
+const matchplayURLRegex = /(?:matchplay\.events\/(?:live\/)*series\/)(\d{1,})/;
 
 export const actions = {
 	getTournaments: async ({ request }) => {
@@ -24,7 +25,12 @@ export const actions = {
 			let data = await request.formData();
 			let seriesId = data.get('seriesId');
 			if (!seriesId || !onlyDigitsRegExp.test(seriesId)) {
-				return fail(400, { seriesId, invalid: true });
+				let parsedURL = seriesId.match(matchplayURLRegex);
+				if (parsedURL && parsedURL[1]) {
+					seriesId = parsedURL[1]
+				} else {
+					return fail(400, { seriesId, invalid: true });
+				}
 			}
 			const seriesResponse = await fetchMatchplay(`series/${seriesId}`, {includeDetails: true});
 			const seriesResponseJson = await seriesResponse.json();
@@ -41,6 +47,7 @@ export const actions = {
 					return response
 				}
 				catch (error) {
+					return fail(400, { seriesId });
 					throw new Error('Matchplay tournaments request failed');
 				}
 			}
@@ -49,7 +56,7 @@ export const actions = {
 
 			return { series: seriesResponseJson.data, tournaments: tournamentData }
 		} catch(error) {
-			return error;
+			return fail(400, { seriesId });
 		}
 	}
 }
