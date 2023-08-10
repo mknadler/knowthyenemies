@@ -80,8 +80,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Know Thy Enemies</title>
+	<meta name="description" content="Pinball series results analysis" />
 </svelte:head>
 
 <section>
