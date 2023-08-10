@@ -42,7 +42,7 @@ import PlayerRow from './PlayerRow.svelte'
 		position: absolute;
 		top: -1.5rem;
 		text-align: right;
-		right: 0;
+		right: 2px;
 		width: max-content;
 		z-index: 4;
 
