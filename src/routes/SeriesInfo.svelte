@@ -5,6 +5,8 @@ export let arenas;
 
 import PlayerRow from './PlayerRow.svelte'
 
+let colorize = false;
+
 </script>
 
 <h2>{series.name}</h2>
@@ -19,7 +21,12 @@ import PlayerRow from './PlayerRow.svelte'
 	</p>
 	</div>
 
-	<table>
+	<div class="table-filters">
+		<label for="color">Colorize results</label>
+		<input id="color" bind:checked={colorize} type="checkbox"/>
+	</div>
+
+	<table class:colorize={colorize}>
 		<thead>
 		<th>Player</th>
 		{#each arenas as arena}
@@ -28,7 +35,7 @@ import PlayerRow from './PlayerRow.svelte'
 		</thead>
 		<tbody>
 		{#each players as player}
-			<PlayerRow player={player} arenas={arenas}/>
+			<PlayerRow player={player} arenas={arenas} />
 		{/each}
 		</tbody>
 	</table>
@@ -74,4 +81,51 @@ import PlayerRow from './PlayerRow.svelte'
 		background: #251638;
 		border-left: none;
 	}
+	.table-filters {
+		margin-top: 2rem;
+	}
+
+	.table-filters label:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	.table-filters [type="checkbox"] {
+		background: transparent;
+		appearance: none;
+		position: relative;
+		transform: translateY(6px);
+	}
+
+	.table-filters [type="checkbox"]:focus-within {
+		appearance: none;
+	}
+
+	.table-filters [type="checkbox"]:focus:before {
+		outline: 1px solid var(--color-accents);
+		outline-offset: 2px;
+	}
+
+	.table-filters [type="checkbox"]:before {
+		content: '';
+		width: 16px;
+		height: 16px;
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		border: 1px solid var(--color-accents);
+	}
+
+
+	.table-filters [type="checkbox"]:hover {
+		cursor: pointer;
+	}
+
+	.table-filters [type="checkbox"]:checked:before {
+		content: 'x';
+		text-align: center;
+		line-height: .75;
+	}
+
 </style>

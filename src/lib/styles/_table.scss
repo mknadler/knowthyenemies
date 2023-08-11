@@ -108,3 +108,55 @@ td, .result-cell {
   padding-right: 2px;
   flex-basis: 40%;
 }
+
+// Colorization
+
+.good, .ok, .bad {
+  position: relative;
+}
+
+.colorize .good {
+  .result-cell__avg {
+    color: #4bff4bc9;
+  }
+}
+
+.colorize .ok {
+  .result-cell__avg {
+    color: #ffff4ad1;
+  }
+}
+
+.colorize .bad {
+  .result-cell__avg {
+    color: #ff9f9f;
+  }
+}
+
+
+/*
+.colorize .good:before, 
+.colorize .ok:before, 
+.colorize .bad:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  left: 2px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  border-radius: 50%;
+  opacity: .5;
+}
+.good:before {
+  background: limegreen;
+}
+.ok:before {
+  background: yellow;
+}
+.bad:before {
+  background: red;
+}
+*/

@@ -2,7 +2,6 @@
 export let player;
 export let arenas;
 
-
 let arenaPlaces = [];
 
 arenas.forEach(arena => {
@@ -32,7 +31,7 @@ function quality(avg) {
 	<td>{player.standing}: {player.name}</td>
 	{#each arenaPlaces as arena}
 		{#if arena.count === 0}
-			<td> <div class="result-cell" data-arena="{arena.name}">
+			<td> <div class="result-cell">
 				<span class="result-cell__avg"></span><span class="result-cell__count"></span>
 			</div>
 			</td>
@@ -45,35 +44,3 @@ function quality(avg) {
 		{/if}
 	{/each}
 </tr>
-
-<style lang="scss">
-	.good, .ok, .bad {
-		position: relative;
-	}
-
-	.good:before, .ok:before, .bad:before {
-		content: '';
-		display: block;
-		position: absolute;
-		width: 4px;
-		height: 4px;
-		left: 2px;
-		bottom: 0;
-		top: 0;
-		margin: auto;
-		border-radius: 50%;
-		opacity: .5;
-		/* Disable for now, add checkbox to filter later */
-		display: none;
-	}
-	.good:before {
-		background: limegreen;
-	}
-	.ok:before {
-		background: yellow;
-	}
-	.bad:before {
-		background: red;
-	}
-
-</style>
