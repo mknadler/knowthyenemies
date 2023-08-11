@@ -1,4 +1,7 @@
 <script>
+import { afterUpdate } from 'svelte';
+
+export let searchForm;
 export let series;
 export let players;
 export let arenas;
@@ -6,6 +9,10 @@ export let arenas;
 import PlayerRow from './PlayerRow.svelte'
 
 let colorize = false;
+
+afterUpdate(() => {
+	searchForm.scrollIntoView({behavior: 'smooth'});
+});
 
 </script>
 

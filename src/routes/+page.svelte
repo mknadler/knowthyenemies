@@ -9,6 +9,7 @@
 
 	export let form;
 
+	let searchForm;
 	let series;
 	let players = [];
 	let arenas = [];
@@ -100,6 +101,7 @@
 	
 	
 	<form 
+		bind:this={searchForm}
 		method="POST" 
 		action="?/getTournaments"
 		use:enhance={() => {
@@ -136,7 +138,7 @@
 	{/if}
 
 	{#if series && series.seriesId && arenas}
-		<SeriesInfo series={series} players={players} arenas={arenas}/>
+		<SeriesInfo searchForm={searchForm} series={series} players={players} arenas={arenas}/>
 	{/if}
 </section>
 
