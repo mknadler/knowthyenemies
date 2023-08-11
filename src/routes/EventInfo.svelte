@@ -2,7 +2,7 @@
 import { afterUpdate } from 'svelte';
 
 export let searchForm;
-export let series;
+export let searchedEvent;
 export let players;
 export let arenas;
 
@@ -16,7 +16,7 @@ afterUpdate(() => {
 
 </script>
 
-<h2>{series.name}</h2>
+<h2>{searchedEvent.name}</h2>
 
 {#if arenas}
 	<div class="example">
