@@ -1,6 +1,6 @@
 <script>
 	import { browser } from '$app/environment';
-	import { dev } from '$app/environemnt';
+	import { dev } from '$app/environment';
 	import { page } from '$app/stores';
 	import { webVitals } from '$lib/vitals';
 	import '$lib/styles/__manifest.scss';
