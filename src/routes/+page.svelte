@@ -96,8 +96,8 @@
 
 		<fieldset>
 			<legend>Select event type</legend>
-			<label>Tournament <input type="radio" name="eventType" value="tournament" bind:group={eventType}/></label>
-			<label>Series <input type="radio" name="eventType" value="series" bind:group={eventType}/></label>
+			<label class="radio-container">Tournament <input type="radio" name="eventType" value="tournament" bind:group={eventType}/></label>
+			<label class="radio-container">Series <input type="radio" name="eventType" value="series" bind:group={eventType}/></label>
 		</fieldset>
 		<div class="form-controls">
 			<div class="buttoned-input">
