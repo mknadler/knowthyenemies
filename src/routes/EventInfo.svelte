@@ -8,7 +8,7 @@ export let arenas;
 
 import PlayerRow from './PlayerRow.svelte'
 
-let colorize = false;
+let colorize = true;
 
 afterUpdate(() => {
 	searchForm.scrollIntoView({behavior: 'smooth'});
