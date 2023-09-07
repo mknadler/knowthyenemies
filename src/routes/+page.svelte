@@ -7,6 +7,7 @@
 	import { processSeriesData } from '$lib/scripts/processSeriesData.js';
 	import { processTournamentData } from '$lib/scripts/processTournamentData.js';
 
+	import RadioGroup from '$components/RadioGroup.svelte';
 
 	import EventInfo from './EventInfo.svelte'
 
@@ -54,6 +55,12 @@
 			processEventData(data);
 		})
 	}
+
+	let eventTypes = [
+		{label: 'Series', value: 'series'},
+		{label: 'Tournament', value: 'tournament'}
+	]
+
 </script>
 
 <svelte:head>
@@ -94,11 +101,8 @@
 		}}
 	>
 
-		<fieldset>
-			<legend>Select event type</legend>
-			<label class="radio-container">Tournament <input type="radio" name="eventType" value="tournament" bind:group={eventType}/></label>
-			<label class="radio-container">Series <input type="radio" name="eventType" value="series" bind:group={eventType}/></label>
-		</fieldset>
+		<RadioGroup groupLabel="Select event type" name="eventType" radioList={eventTypes} bind:selectedRadio={eventType}></RadioGroup>
+
 		<div class="form-controls">
 			<div class="buttoned-input">
 				<label for="seriesIdInput">MatchPlay {#if eventType === 'tournament'}Tournament{:else}Series{/if}</label>
