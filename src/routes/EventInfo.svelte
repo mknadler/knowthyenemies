@@ -1,12 +1,12 @@
 <script>
 import { afterUpdate } from 'svelte';
+import Checkbox from '$components/Checkbox.svelte';
+import PlayerRow from './PlayerRow.svelte';
 
 export let searchForm;
 export let searchedEvent;
 export let players;
 export let arenas;
-
-import PlayerRow from './PlayerRow.svelte'
 
 let colorize = true;
 
@@ -29,8 +29,7 @@ afterUpdate(() => {
 	</div>
 
 	<div class="table-filters">
-		<label for="color">Colorize results</label>
-		<input id="color" bind:checked={colorize} type="checkbox"/>
+		<Checkbox checkboxLabel="Colorize results" bind:checked={colorize}></Checkbox>
 	</div>
 
 	<table class:colorize={colorize}>

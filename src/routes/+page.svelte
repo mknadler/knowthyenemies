@@ -8,7 +8,6 @@
 	import { processTournamentData } from '$lib/scripts/processTournamentData.js';
 
 	import RadioGroup from '$components/RadioGroup.svelte';
-	import Checkbox from '$components/Checkbox.svelte';
 
 	import EventInfo from './EventInfo.svelte'
 
@@ -68,8 +67,6 @@
 	<title>Know Thy Enemies</title>
 	<meta name="description" content="Pinball series results analysis" />
 </svelte:head>
-
-<Checkbox checkboxLabel="Colorize results"></Checkbox>
 
 <section>
 	<h1>Know thy enemies</h1>
