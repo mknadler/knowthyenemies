@@ -1,22 +1,14 @@
 <script>
 	export let checkboxLabel = '';
 	export let checked = false;
-
-
 </script>
 
 <label class="c-checkbox" hasChecked={checked}>
-	<input type="checkbox" bind:checked={checked}/>
+	<input type="checkbox" bind:checked={checked} />
 	{checkboxLabel}
 </label>
 
 <style>
-
-	.c-checkbox {
-
-
-	}
-
 	.c-checkbox {
 		font-size: 1rem;
 		display: grid;
