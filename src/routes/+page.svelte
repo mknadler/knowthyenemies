@@ -1,9 +1,7 @@
 <script>
 	import { enhance } from '$app/forms';
-
 	import { Player, Arena } from '$lib/classes.js'
-
-	import { getOrGenerateShortname as getShortname } from '$lib/getOrGenerateShortnames.js';
+	import { getOrGenerateShortname as getShortname } from '$lib/getOrGenerateShortnames.js'
 	import { processSeriesData } from '$lib/scripts/processSeriesData.js';
 	import { processTournamentData } from '$lib/scripts/processTournamentData.js';
 
@@ -126,24 +124,5 @@
 <style>
 	.error {
 		margin-top: 1rem;
-	}
-
-	fieldset {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
-		max-width: 20rem;
-		font-family: var(--font-table);
-		border-color: var(--color-accents);
-	}
-	fieldset legend {
-		font-family: var(--font-form);
-	}
-	fieldset label:nth-of-type(1) {
-		border-bottom: 1px dashed var(--color-accents);
-		padding-bottom: .5rem;
-		padding-top: .5rem;
-	}
-	fieldset label:nth-of-type(2) {
-		padding-top: .5rem;
 	}
 </style>
