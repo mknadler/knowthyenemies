@@ -10,7 +10,6 @@ arenas.forEach(arena => {
 	let placesCount = placesOnly.length;
 	let placesAverageRaw = placesCount ? placesOnly.reduce((sum, num) => sum + num)/placesCount : 0;
 	let placesAverage = Number.parseFloat(placesAverageRaw).toFixed(1);
-	
 	arenaPlaces.push({count: placesCount, avg: placesAverage});
 })
 

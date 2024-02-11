@@ -5,11 +5,16 @@ import { getOrGenerateShortname as getShortname } from '$lib/getOrGenerateShortn
 export const processSeriesData = ((data, players, arenas) => {
 	// Generate list of unique games in tournament
 
-	data.tournaments.forEach(tournament => {
+	let allArenas = data.arenas;
+
+	data.tournaments.forEach((tournament, tIndex) => {
 		let games = tournament.data;
-		games.forEach(game => {
+		games.forEach((game, gIndex) => {
+			let thisArena = allArenas.find(allArena => allArena.arenaId === game.arenaId);
+			game.arena = thisArena
+			data.tournaments[tIndex].data[gIndex].arena = thisArena;
 			if (!arenas.find(arena => arena.opdbId === game.arena.opdbId)) {
-				arenas.push(new Arena(game.arena.name, game.arena.opdbId, getShortname(game.arena.opdbId, game.arena.name)));
+				arenas.push(new Arena(game.arena.name, game.arena.opdbId, getShortname(game.arena.opdbId, game.arena.name), game.arena.arenaId));
 			}
 		})
 	})
@@ -28,16 +33,18 @@ export const processSeriesData = ((data, players, arenas) => {
 	data.tournaments.forEach(tournament => {
 		let games = tournament.data;
 		games.forEach(game => {
+			let thisArena = arenas.find(arena => arena.arenaId === game.arenaId);
+			game.arena = thisArena
 			game.resultPositions.forEach((position, index) => {
 				let thisPlayer = players.find(player => position === player.id)
 				thisPlayer.result = {
-					arena: game.arena,
+					arena: thisArena,
 					place: index + 1 
 				};
 			})
 		})
 	})
-
+	
 	return {players, arenas};
 
 });

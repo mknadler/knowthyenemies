@@ -43,11 +43,32 @@ export const actions = {
 				const tournamentURLs = seriesResponseJson.data.tournamentIds.map(id => {
 					return new URL(`https://next.matchplay.events/api/tournaments/${id}/games`)
 				});
+				const arenaURLs = seriesResponseJson.data.tournamentIds.map(id => {
+					return new URL(`https://next.matchplay.events/api/tournaments/${id}`)
+				});
 
 				const getAllTournaments = async() => {
 					try {
 						const response = await Promise.all(
-							tournamentURLs.map(url => fetch(url, {matchplayHeaders}).then(res => res.json()))
+							tournamentURLs.map(url => {
+								return fetch(url, {matchplayHeaders}).then(res => res.json())
+							})
+						);
+						return response
+					}
+					catch (error) {
+						return fail(400, { eventId });
+						throw new Error('Matchplay tournaments request failed');
+					}
+				}
+
+				const getAllArenas = async() => {
+					try {
+						const response = await Promise.all(
+							arenaURLs.map(url => {
+								url.searchParams.append('includeArenas', true);
+								return fetch(url, {matchplayHeaders}).then(res => res.json())
+							})
 						);
 						return response
 					}
@@ -58,8 +79,19 @@ export const actions = {
 				}
 
 				const tournamentData = await getAllTournaments();
+				const arenasData = await getAllArenas();
 
-				return { series: seriesResponseJson.data, tournaments: tournamentData }
+				let allArenas = [];
+
+				arenasData.forEach(arenaData => {
+					arenaData.data.arenas.forEach(arena => {
+						if (!allArenas.find(allArena => allArena.arenaId === arena.arenaId)) {
+							allArenas.push(arena);
+						}
+					})
+				})
+
+				return { series: seriesResponseJson.data, tournaments: tournamentData, arenas: allArenas}
 			} else if (mode === 'tournament') {
 				// TODO: dedupe this + above code
 				if (!eventId || !onlyDigitsRegExp.test(eventId)) {
@@ -104,7 +136,6 @@ export const actions = {
 async function fetchMatchplay(endpoint, urlParams = {}) {
 	const url = new URL(`https://next.matchplay.events/api/${endpoint}`);
 	Object.keys(urlParams).forEach(key => url.searchParams.append(key, urlParams[key]));
-
 	const response = await fetch(url, { method: 'GET', matchplayHeaders})
 
 	return response;

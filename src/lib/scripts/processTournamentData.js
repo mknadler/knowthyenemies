@@ -31,8 +31,12 @@ export const processTournamentData = ((data, players, arenas) => {
 	data.tournamentGames.data.forEach(game => {
 		game.resultPositions.forEach((position, index) => {
 			let thisPlayer = players.find(player => position === player.id)
+			let arenaObj = data.tournament.data.arenas.find(arena => {
+				return arena.arenaId === game.arenaId
+			})
 			thisPlayer.result = {
-				arena: game.arena,
+				
+				arena: arenaObj,
 				place: index + 1 
 			};
 		})

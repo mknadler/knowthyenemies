@@ -31,9 +31,10 @@ export class Player {
 // It will need to be delayed b/c
 // OPDB has pretty tight rate limiting
 export class Arena {
-	constructor(name, opdbId, shortname) {
+	constructor(name, opdbId, shortname, arenaId = null) {
 		this.name = name;
 		this.opdbId = opdbId
 		this.shortname = shortname;
+		this.arenaId = arenaId;
 	}
 }

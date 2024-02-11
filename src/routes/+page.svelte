@@ -15,6 +15,7 @@
 	let searchedEvent;
 	let players = [];
 	let arenas = [];
+	let seriesArenas = [];
 
 	let isLoading = false;
 	let errorMsg = '';

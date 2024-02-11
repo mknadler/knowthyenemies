@@ -1,5 +1,5 @@
 <script>
-import { afterUpdate } from 'svelte';
+import { afterUpdate, onMount } from 'svelte';
 import Checkbox from '$components/Checkbox.svelte';
 import PlayerRow from './PlayerRow.svelte';
 
