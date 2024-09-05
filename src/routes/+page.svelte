@@ -71,7 +71,7 @@
 	<h1>Know thy enemies</h1>
 	<section class="about">
 		<div class="about__section">
-			<span>What is this?</span><p>A tool for pinball players to see how well different players did on certain machines during a tournament or series (group of tournaments) run through <a href="https://next.matchplay.events/">MatchPlay</a>. If you don't use MatchPlay but want to check this out, try the series id '2735' or the tournament id '91132`.</p>
+			<span>What is this?</span><p>A tool for pinball players to see how well different players did on certain machines during a tournament or series (group of tournaments) run through <a href="https://app.matchplay.events/">MatchPlay</a>. If you don't use MatchPlay but want to check this out, try the series id '2735' or the tournament id '91132`.</p>
 		</div>
 		<div class="about__section">
 			<span>Who made this?</span><p><a href="https://miri.page">Miriam Nadler</a>. You can see the code <a href="https://github.com/mknadler/knowthyenemies">here</a>. For feedback, open an issue on GitHub or use the contact form on my personal site.</p>
@@ -93,7 +93,11 @@
 					searchedEvent = result.data.series || result.data.tournament.data;
 				} else if (result.status === 400) {
 					errorMsg = 'Series ID invalid'
-				} else {
+                    console.log('result!', result);
+				} else if (result.status === 429) {
+                    console.log("429 :)"); 
+                } else {
+                    console.log('error', result)
 					errorMsg = 'Something went wrong. Please try again.'
 				}
 			}
