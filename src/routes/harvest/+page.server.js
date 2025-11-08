@@ -32,17 +32,22 @@ const getMainData = async() => {
 
 let tData;
 
+const fetchTData = () => {
+	getMainData().then(data => {
+		tData = data;
+	})
+} 
+
 (function loop() {
   setTimeout(() => {
     // Your logic here
-	const allData = getMainData().then(data => {
-		tData = data;
-	})
+  	fetchTData();
     loop();
   }, 6000);
 })();
 
 export const load = async({ params }) => {
+	fetchTData();
 	return {
 		allData: tData
 	};

@@ -38,7 +38,7 @@
 		    structureTournamentData();
 		    invalidateAll();
 		    loop();
-		  }, 6500);
+		  }, 3000);
 		})();
 
 	});
@@ -54,7 +54,7 @@
 
 <h1>Harvest</h1>
 
-Auto-updates every 6 seconds. Last updated: {format(lastUpdated, 'pp')}
+Auto-updates every few seconds. Last updated: {format(lastUpdated, 'pp')}
 
 <div class="links">
 	<h2>Links</h2>
