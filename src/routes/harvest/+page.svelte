@@ -1,15 +1,17 @@
 <script>
 	import { onMount } from 'svelte';
-
+	import { invalidateAll } from '$app/navigation';
 	import { format } from 'date-fns';
 
 	export let data;
 
+	let lastUpdated = new Date();
+
 	let tData, mainArenas, womensArenas, allPlayers, mainQueues, womensQueues
 
-	onMount(() => {
-		data.allData.then((all => {
-			console.log('data', all);
+	const structureTournamentData = () => {
+	if (data?.allData) {
+			let all = data.allData;
 			mainArenas = all.main.data.arenas;
 			womensArenas = all.main.data.arenas;
 
@@ -23,12 +25,25 @@
 				arena.queue = mainQueues[arena.arenaId]
 				arena.womensQueue = womensQueues[arena.arenaId]
 			})
-		}))
+
+			lastUpdated = new Date();
+
+		}
+	}
+
+	onMount(() => {
+		structureTournamentData();
+		(function loop() {
+		  setTimeout(() => {
+		    structureTournamentData();
+		    invalidateAll();
+		    loop();
+		  }, 6500);
+		})();
 
 	});
 
 	let queues, mainTournament, womensTournament, classicsTournament;
-
 
 	const playerFromId = (id) => {
 		return allPlayers.find(player => {
@@ -38,6 +53,9 @@
 </script>
 
 <h1>Harvest</h1>
+
+Auto-updates every 6 seconds. Last updated: {format(lastUpdated, 'pp')}
+
 <div class="links">
 	<h2>Links</h2>
 	<a href="https://app.matchplay.events/tournaments/208626/">Harvest (Open)</a>

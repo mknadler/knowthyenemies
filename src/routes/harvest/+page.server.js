@@ -23,19 +23,28 @@ const getMainData = async() => {
 	const womensTournament = await fetchMatchplay(`tournaments/${harvestWomensId}`, {includePlayers: true, includeArenas: true, includePlayoffs: true, includeShortcut: true});
 	const mainQueues = await fetchMatchplay(`tournaments/${harvestMainId}/queues`);
 	const womensQueues = await fetchMatchplay(`tournaments/${harvestWomensId}/queues`);
+	console.log("Fetched!!");
 	return {
 		main: mainTournament, womens: womensTournament,
 		mainQueues: mainQueues, womensQueues: womensQueues,
 	};
 }
 
-export const load = async({ params }) => {
+let tData;
+
+(function loop() {
+  setTimeout(() => {
+    // Your logic here
 	const allData = getMainData().then(data => {
-		return data;
+		tData = data;
 	})
-	console.log("Load!", allData);
+    loop();
+  }, 6000);
+})();
+
+export const load = async({ params }) => {
 	return {
-		allData
+		allData: tData
 	};
 };
 
