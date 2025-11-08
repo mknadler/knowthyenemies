@@ -38,47 +38,69 @@
 </script>
 
 <h1>Harvest</h1>
-	{#if mainArenas}
+<div class="links">
+	<h2>Links</h2>
+	<a href="https://app.matchplay.events/tournaments/208626/">Harvest (Open)</a>
+	<a href="https://app.matchplay.events/tournaments/214406">Harvest (Classics)</a>
+	<a href="https://app.matchplay.events/tournaments/217814">They/hervest</a>
+</div>
+{#if mainArenas}
 	{#each mainArenas as arena}
-		<div class="arena-card">
-			<h2>{arena.name}</h2>
-			<div class="queues">
-				<div class="queues__queue">
-					<h3>Open <a href={`https://app.matchplay.events/tournaments/208626/arenas/${arena.arenaId}`}>URL</a></h3>
-					{#if arena.queue}
-						<ol>
-							{#each arena.queue as queuedPlayer, i}
-								<li class={`${queuedPlayer.completedAt === null ? '' : 'finished'}`}>
-									{playerFromId(queuedPlayer.playerId).name}<br/>
-									{format(queuedPlayer.createdAt, 'hh:mm:ss')}
-								</li>
-							{/each}
-						</ol>
-					{:else}
-						<span>Empty</span>
-					{/if}
-				</div>
-				<div class="queues__queue">
-					<h3>Womens <a href={`https://app.matchplay.events/tournaments/217814/arenas/${arena.arenaId}`}>URL</a></h3>
-					{#if arena.womensQueue}
-						<ol>
-							{#each arena.womensQueue as queuedPlayer, i}
-								<li class={`${queuedPlayer.completedAt === null ? '' : 'finished'}`}>
-									{playerFromId(queuedPlayer.playerId).name}<br/>
-									{format(queuedPlayer.createdAt, 'hh:mm:ss')}
-								</li>
-							{/each}
-						</ol>
-					{:else}
-						<span>Empty</span>
-					{/if}
+		{#if !arena}
+			Error: Arena not found
+		{:else}
+			<div class="arena-card">
+				<h2>{arena.name}</h2>
+				<div class="queues">
+					<div class="queues__queue">
+						<h3>Open <a href={`https://app.matchplay.events/tournaments/208626/arenas/${arena.arenaId}`}>URL</a></h3>
+						{#if arena.queue}
+							<ol>
+								{#each arena?.queue as queuedPlayer, i}
+									<li class={`${queuedPlayer.completedAt === null ? '' : 'finished'}`}>
+										{#if queuedPlayer && playerFromId(queuedPlayer.playerId)?.name}
+											{playerFromId(queuedPlayer.playerId).name}<br/>
+										{:else}
+											Player name not found
+										{/if}
+										{#if queuedPlayer?.createdAt}
+											{format(queuedPlayer.createdAt, 'hh:mm:ss')}
+										{:else}
+											Queue join time not found
+										{/if}
+									</li>
+								{/each}
+							</ol>
+						{:else}
+							<span>Empty</span>
+						{/if}
+					</div>
+					<div class="queues__queue">
+						<h3>Womens <a href={`https://app.matchplay.events/tournaments/217814/arenas/${arena.arenaId}`}>URL</a></h3>
+						{#if arena.womensQueue}
+							<ol>
+								{#each arena.womensQueue as queuedPlayer, i}
+									<li class={`${queuedPlayer.completedAt === null ? '' : 'finished'}`}>
+										{playerFromId(queuedPlayer.playerId).name}<br/>
+										{format(queuedPlayer.createdAt, 'hh:mm:ss')}
+									</li>
+								{/each}
+							</ol>
+						{:else}
+							<span>Empty</span>
+						{/if}
+					</div>
 				</div>
 			</div>
-		</div>
+		{/if}
 	{/each}
 {/if}
 
 <style>
+	h1 {
+		font-weight: 600;
+	}
+
 	.arena-card {
 		display: block;
 		border: 1px dotted #ff0066;
@@ -108,11 +130,6 @@
 		opacity: .8;
 	}
 
-	li.finished {
-		text-decoration: line-through;
-		opacity: .8;
-	}
-
 	@media (max-width: 500px) {
 		.queues__queue {
 			flex-grow: 1;
@@ -125,5 +142,19 @@
 
 	h3 {
 		font-size: 16px;
+	}
+
+	.links {
+		padding: 2rem;
+		position: sticky;
+		top: 0;
+		background: var(--color-background);
+		z-index: 1;
+		border-bottom: 1px solid #eee;
+
+		& a {
+			display: block;
+			margin-top: .5rem;
+		}
 	}
 </style>
