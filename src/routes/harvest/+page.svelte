@@ -5,33 +5,30 @@
 
 	export let data;
 
+	let tData, mainArenas, womensArenas, allPlayers, mainQueues, womensQueues
+
 	onMount(() => {
+		data.allData.then((all => {
+			console.log('data', all);
+			mainArenas = all.main.data.arenas;
+			womensArenas = all.main.data.arenas;
+
+			
+			mainArenas = mainArenas.filter(arena => arena.status === "active");
+
+			allPlayers = all.main.data.players;
+			mainQueues = all.mainQueues.data;
+			womensQueues = all.womensQueues.data;
+			mainArenas.forEach(arena => {
+				arena.queue = mainQueues[arena.arenaId]
+				arena.womensQueue = womensQueues[arena.arenaId]
+			})
+		}))
 
 	});
 
 	let queues, mainTournament, womensTournament, classicsTournament;
 
-	let tData = data.allData;
-
-	let mainArenas = tData.main.data.arenas;
-	let womensArenas = tData.main.data.arenas;
-
-	
-	mainArenas = mainArenas.filter(arena => arena.status === "active");
-
-	let allPlayers = tData.main.data.players;
-	let mainQueues = tData.mainQueues.data;
-	let womensQueues = tData.womensQueues.data;
-	mainArenas.forEach(arena => {
-		arena.queue = mainQueues[arena.arenaId]
-		arena.womensQueue = womensQueues[arena.arenaId]
-	})
-
-	console.log("womens arenas", womensArenas)
-
-	console.log("mqueue", mainQueues)
-	console.log("players", allPlayers)
-	console.log("Womens", womensQueues)
 
 	const playerFromId = (id) => {
 		return allPlayers.find(player => {
@@ -41,43 +38,45 @@
 </script>
 
 <h1>Harvest</h1>
-{#each mainArenas as arena}
-	<div class="arena-card">
-		<h2>{arena.name}</h2>
-		<div class="queues">
-			<div class="queues__queue">
-				<h3>Open <a href={`https://app.matchplay.events/tournaments/208626/arenas/${arena.arenaId}`}>URL</a></h3>
-				{#if arena.queue}
-					<ol>
-						{#each arena.queue as queuedPlayer, i}
-							<li class={`${queuedPlayer.completedAt === null ? '' : 'finished'}`}>
-								{playerFromId(queuedPlayer.playerId).name}<br/>
-								{format(queuedPlayer.createdAt, 'hh:mm:ss')}
-							</li>
-						{/each}
-					</ol>
-				{:else}
-					<span>Empty</span>
-				{/if}
-			</div>
-			<div class="queues__queue">
-				<h3>Womens <a href={`https://app.matchplay.events/tournaments/217814/arenas/${arena.arenaId}`}>URL</a></h3>
-				{#if arena.womensQueue}
-					<ol>
-						{#each arena.womensQueue as queuedPlayer, i}
-							<li class={`${queuedPlayer.completedAt === null ? '' : 'finished'}`}>
-								{playerFromId(queuedPlayer.playerId).name}<br/>
-								{format(queuedPlayer.createdAt, 'hh:mm:ss')}
-							</li>
-						{/each}
-					</ol>
-				{:else}
-					<span>Empty</span>
-				{/if}
+	{#if mainArenas}
+	{#each mainArenas as arena}
+		<div class="arena-card">
+			<h2>{arena.name}</h2>
+			<div class="queues">
+				<div class="queues__queue">
+					<h3>Open <a href={`https://app.matchplay.events/tournaments/208626/arenas/${arena.arenaId}`}>URL</a></h3>
+					{#if arena.queue}
+						<ol>
+							{#each arena.queue as queuedPlayer, i}
+								<li class={`${queuedPlayer.completedAt === null ? '' : 'finished'}`}>
+									{playerFromId(queuedPlayer.playerId).name}<br/>
+									{format(queuedPlayer.createdAt, 'hh:mm:ss')}
+								</li>
+							{/each}
+						</ol>
+					{:else}
+						<span>Empty</span>
+					{/if}
+				</div>
+				<div class="queues__queue">
+					<h3>Womens <a href={`https://app.matchplay.events/tournaments/217814/arenas/${arena.arenaId}`}>URL</a></h3>
+					{#if arena.womensQueue}
+						<ol>
+							{#each arena.womensQueue as queuedPlayer, i}
+								<li class={`${queuedPlayer.completedAt === null ? '' : 'finished'}`}>
+									{playerFromId(queuedPlayer.playerId).name}<br/>
+									{format(queuedPlayer.createdAt, 'hh:mm:ss')}
+								</li>
+							{/each}
+						</ol>
+					{:else}
+						<span>Empty</span>
+					{/if}
+				</div>
 			</div>
 		</div>
-	</div>
-{/each}
+	{/each}
+{/if}
 
 <style>
 	.arena-card {

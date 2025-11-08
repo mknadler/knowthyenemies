@@ -32,10 +32,10 @@ const getMainData = async() => {
 }
 
 export const load = async({ params }) => {
-
 	const allData = getMainData().then(data => {
 		return data;
 	})
+	console.log("Load!", allData);
 	return {
 		allData
 	};
