@@ -139,7 +139,7 @@ export const actions = {
                                     r(fetch(arenaURLs[i], {matchplayHeaders}).then(res => {
                                         console.log("RES!", res)
                                         if (res.status === 429) {
-                                            throw error(429);
+                                            error(429);
                                         }
                                         return res.json();
                                     }))
