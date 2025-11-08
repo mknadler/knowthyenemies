@@ -57,7 +57,12 @@ export const load = async({ params }) => {
 async function fetchMatchplay(endpoint, urlParams = {}) {
 	const url = new URL(`https://app.matchplay.events/api/${endpoint}`);
 	Object.keys(urlParams).forEach(key => url.searchParams.append(key, urlParams[key]));
-	const response = await fetch(url, { method: 'GET', matchplayHeaders}).then(response => response.json());
+	const response = await fetch(url, { method: 'GET', matchplayHeaders}).then(response => {
+		if (response.ok) { return response.json() }
+		else { 
+			console.log("Error", response);
+		}
+ 	});
 
 	return response;
 }

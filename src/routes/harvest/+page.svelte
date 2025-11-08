@@ -10,23 +10,27 @@
 	let tData, mainArenas, womensArenas, allPlayers, mainQueues, womensQueues
 
 	const structureTournamentData = () => {
-	if (data?.allData) {
-			let all = data.allData;
-			mainArenas = all.main.data.arenas;
-			womensArenas = all.main.data.arenas;
+		console.log("Fired", data);
+		if (data?.allData) {
+		let all = data.allData;
+		if (!all.main || !all.womensQueues || !all.mainQueues) {
+			return;
+		}
+		mainArenas = all.main.data.arenas;
+		womensArenas = all.main.data.arenas;
 
-			
-			mainArenas = mainArenas.filter(arena => arena.status === "active");
+		
+		mainArenas = mainArenas.filter(arena => arena.status === "active");
 
-			allPlayers = all.main.data.players;
-			mainQueues = all.mainQueues.data;
-			womensQueues = all.womensQueues.data;
-			mainArenas.forEach(arena => {
-				arena.queue = mainQueues[arena.arenaId]
-				arena.womensQueue = womensQueues[arena.arenaId]
-			})
+		allPlayers = all.main.data.players;
+		mainQueues = all.mainQueues.data;
+		womensQueues = all.womensQueues.data;
+		mainArenas.forEach(arena => {
+			arena.queue = mainQueues[arena.arenaId]
+			arena.womensQueue = womensQueues[arena.arenaId]
+		})
 
-			lastUpdated = new Date();
+		lastUpdated = new Date();
 
 		}
 	}
@@ -54,7 +58,7 @@
 
 <h1>Harvest</h1>
 
-Auto-updates every few seconds. Last updated: {format(lastUpdated, 'pp')}
+<div class="auto">Auto-updates every few seconds. <br/>Last updated: {format(lastUpdated, 'pp')}. <br/>If this stops updating, reload.</div>
 
 <div class="links">
 	<h2>Links</h2>
@@ -112,6 +116,12 @@ Auto-updates every few seconds. Last updated: {format(lastUpdated, 'pp')}
 			</div>
 		{/if}
 	{/each}
+{:else}
+	<div class="loading">
+		<span>Loading...</span>
+		<div class="box-1"></div>
+		<div class="box-2"></div>
+	</div>
 {/if}
 
 <style>
@@ -162,17 +172,77 @@ Auto-updates every few seconds. Last updated: {format(lastUpdated, 'pp')}
 		font-size: 16px;
 	}
 
-	.links {
-		padding: 2rem;
+	.auto {
 		position: sticky;
 		top: 0;
 		background: var(--color-background);
 		z-index: 1;
+		padding: 1rem 0;
+	}
+
+	.links {
+		padding: 2rem;
 		border-bottom: 1px solid #eee;
 
 		& a {
 			display: block;
 			margin-top: .5rem;
+		}
+	}
+
+	.loading {
+		border: 1px solid var(--color-medpink);
+		padding: 2rem 2rem 4rem 2rem;
+		margin-top: 1rem;
+		text-align: center;
+		position: relative;
+
+
+	}
+	.box-1 {
+		display: block;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		top: 1rem;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		background: var(--color-accents);
+		animation: moveIt 2s ease-in-out infinite alternate;
+	}
+	.box-2 {
+		display: block;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		top: 1rem;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		background: var(--color-medpink);
+		animation: moveItOtherWay 2s ease-in-out infinite alternate;
+	}
+	@keyframes moveIt {
+		0% {
+			transform: translateX(0);
+			border-radius: 0%;
+		}
+		100% {
+			transform: translateX(1rem);
+			border-radius: 50%;
+		}
+	}
+	@keyframes moveItOtherWay {
+		0% {
+			transform: translateX(0);
+			border-radius: 0%;
+		}
+		100% {
+			transform: translateX(-1rem);
+			border-radius: 50%;
 		}
 	}
 </style>
